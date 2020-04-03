@@ -1,4 +1,6 @@
 
+expect fun appTitle(): String
+
 fun getImc(weight: Int, height: Float): Float {
     return weight/(height*height)
 }
