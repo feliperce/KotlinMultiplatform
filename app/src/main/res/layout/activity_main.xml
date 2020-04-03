@@ -43,10 +43,12 @@
 
     <TextView
         android:id="@+id/imcValueTextView"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintTop_toBottomOf="@+id/heightTextInputLayout"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calculateButton"
         app:layout_constraintBottom_toBottomOf="@+id/calculateButton"
         tools:text="IMC: 30"/>
 
