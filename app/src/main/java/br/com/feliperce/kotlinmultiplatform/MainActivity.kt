@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
                 val imc = getImc(weight.toInt(), height.toFloat())
                 val imcResult = getImcResult(imc)
 
-                imcValueTextView.text = "Você está: $imcResult"
+                imcValueTextView.text = "Você está com: $imcResult"
             }
 
         }
